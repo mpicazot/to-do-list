@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lista de tareas</title>
+    </head>
+    <body>
+        <header>
+            <h1>Lista de tareas</h1>
+            <form id="new-task-form">
+                <input type="text" id="new-task-input" placeholder="¿Qué hay por hacer?">
+                <input type="submit" id="new-task-submit" value="+ Agregar">
+            </form>
+        </header>
+        <main>
+            <section class="task-list">
+                <h2 id="task-header"><img id="img-list" width="30px">Tareas por hacer</h2>
+
+                <div id="tasks">
+                    <div class="task">
+                        <div class="content">
+                        </div>
+                        <div class="actions">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="bundle.js"></script>
+    </body>
+</html>

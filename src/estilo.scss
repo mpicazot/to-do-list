@@ -1,0 +1,33 @@
+$dark-color: #474787;
+$darker-color: #1F2937;
+$darkest-color: #111827;
+$grey-color: #aaa69d;
+$light-color: #f7f1e3;
+$pink-color: #EC4899;
+$purple-color: #706fd3;
+
+body{
+    background-color: $light-color;
+}
+
+header h1 {
+    color: $grey-color;
+}
+
+#new-task-input {
+    color: $grey-color;
+    background-color: white;
+}
+
+#new-task-input::placeholder {
+    color: $grey-color;
+}
+
+#new-task-submit {
+    color: $pink-color;
+    background-color: $dark-color;
+}
+
+.task .actions .edit {
+    color: $pink-color;
+}
